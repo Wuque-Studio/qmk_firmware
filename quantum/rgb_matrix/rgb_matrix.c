@@ -60,6 +60,9 @@ __attribute__((weak)) RGB rgb_matrix_hsv_to_rgb(HSV hsv) {
 // -----End rgb effect includes macros-------
 // ------------------------------------------
 
+#define RGB_MATRIX_DEFAULT_HUE 61
+#define RGB_MATRIX_DEFAULT_SAT 75
+#define RGB_MATRIX_DEFAULT_MODE RGB_MATRIX_CYCLE_ALL
 #ifndef RGB_MATRIX_TIMEOUT
 #    define RGB_MATRIX_TIMEOUT 0
 #endif
